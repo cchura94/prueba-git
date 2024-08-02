@@ -14,3 +14,17 @@ git config --global user.email "sucorreo@gmail.com"
 ```
 git init
 ```
+## Asociar el repositorio (local) con el (remoto)
+```
+git remote add origin su_direccion_url_git
+```
+------------------------------------------------
+```
+git add .
+git commit -m "comandos iniciales GIT"
+git push origin master
+```
+------------------------------------------------
+```
+git pull origin master
+```
